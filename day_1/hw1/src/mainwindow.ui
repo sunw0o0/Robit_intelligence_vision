@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>800</width><height>600</height></rect></property>
+  <property name="windowTitle"><string>MainWindow</string></property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="gaussia_O">
+    <property name="geometry"><rect><x>50</x><y>30</y><width>320</width><height>240</height></rect></property>
+    <property name="styleSheet"><string notr="true">border: 1px solid #888; background-color: #111;</string></property>
+    <property name="text"><string>Gaussian O</string></property>
+   </widget>
+   <widget class="QLabel" name="gaussian_X">
+    <property name="geometry"><rect><x>430</x><y>30</y><width>320</width><height>240</height></rect></property>
+    <property name="styleSheet"><string notr="true">border: 1px solid #888; background-color: #111;</string></property>
+    <property name="text"><string>Gaussian X</string></property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry"><rect><x>170</x><y>280</y><width>91</width><height>18</height></rect></property>
+    <property name="text"><string>Gaussian O</string></property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry"><rect><x>570</x><y>280</y><width>91</width><height>18</height></rect></property>
+    <property name="text"><string>Gaussian X</string></property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry"><rect><x>0</x><y>0</y><width>800</width><height>23</height></rect></property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
